@@ -256,7 +256,7 @@ class UserTableSeeder extends Seeder
                 
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -270,7 +270,7 @@ class UserTableSeeder extends Seeder
                 
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -284,7 +284,7 @@ class UserTableSeeder extends Seeder
                 
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -298,7 +298,7 @@ class UserTableSeeder extends Seeder
                 
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -312,7 +312,7 @@ class UserTableSeeder extends Seeder
                 
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -326,7 +326,7 @@ class UserTableSeeder extends Seeder
                 
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -338,7 +338,7 @@ class UserTableSeeder extends Seeder
                 'email' => 'alejandro.orostica@usach.cl',
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
@@ -350,7 +350,7 @@ class UserTableSeeder extends Seeder
                 'email' => 'ignacio.farias.v@usach.cl',
                 'userType' => 3,
                 'userDescription' => '',
-                'userPhoto' => '',
+                'userPhoto' => 'user.png',
                 'userCharge' => '',
                 'access_token' => '',
             ]
