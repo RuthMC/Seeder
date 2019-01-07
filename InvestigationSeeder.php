@@ -16,10 +16,10 @@ class InvestigationSeeder extends Seeder
         DB::table('investigations')->insert(
             [
                 'investigationName' => 'Identifying sarcasm in Twitter: a closer look',
-                'investigationYear' => '2015',
+                'investigationYear' => '2011',
                 'investigationAuthors' => 'Roberto González-Ibánez, Smaranda Muresan, Nina Wacholder',
                 'investigationAbstract' => 'Sarcasm transforms the polarity of an apparently positive or negative utterance into its opposite. We report on a method for constructing a corpus of sarcastic Twitter messages in which determination of the sarcasm of each message has been made by its author. We use this reliable corpus to compare sarcastic utterances in Twitter to utterances that express positive or negative attitudes without sarcasm. We investigate the impact of lexical and pragmatic factors on machine learning effectiveness for identifying sarcastic utterances and we compare the performance of machine learning techniques and human judges on this task. Perhaps unsurprisingly, neither the human judges nor the machine learning techniques perform very well.',
-                'page_id' => 2,
+                'page_id' => 1,
             ]
         );
         DB::table('investigations')->insert(
@@ -403,5 +403,226 @@ class InvestigationSeeder extends Seeder
                 'page_id' => 9,
             ]
         );
+
+//HECTOR ANTILLANCA 10scolar 11 12 scopus
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Un marco sistémico para orientar el diseño de artefactos del diálogo',
+                'investigationYear' => '2008',
+                'investigationAuthors' => 'Lobos, E.L., Ponce, H., Antillanca, H.',
+                'investigationAbstract' => " ",
+                'page_id' => 12,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Refining temporal criteria to classify collaborative systems',
+                'investigationYear' => '2008',
+                'investigationAuthors' => 'Antillanca, H.B., Fuller, D.A..',
+                'investigationAbstract' => " ",
+                'page_id' => 12,
+            ]
+        );
+//LEONEL MEDINA13 14 15
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Ore grade estimation by feature selection and voting using boundary detection in digital image analysis',
+                'investigationYear' => '2011',
+                'investigationAuthors' => 'Claudio A Perez, Pablo A Estévez, Pablo A Vera, Luis E Castillo, Carlos M Aravena, Daniel A Schulz, Leonel E Medina',
+                'investigationAbstract' => "In mining, rock classification plays a crucial role at different stages of the extraction process ranging from the design of the mine to mineral grading and plant control. In this paper we present a new method to improve rock classification using digital image analysis, feature selection based on mutual information and a voting process to take into account boundary information. ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Stochastic facilitation of artificial tactile sensation in primates',
+                'investigationYear' => '2012',
+                'investigationAuthors' => 'Leonel E Medina, Mikhail A Lebedev, Joseph E O´Doherty, Miguel AL Nicolelis',
+                'investigationAbstract' => "Artificial sensation via electrical or optical stimulation of brain sensory areas offers a promising treatment for sensory deficits. For a brain–machine–brain interface, such artificial sensation conveys feedback signals from a sensorized prosthetic limb. The ways neural tissue can be stimulated to evoke artificial sensation and the parameter space of such stimulation, however, remain largely unexplored. Here we investigated whether stochastic facilitation (SF) could enhance an artificial tactile sensation produced by intracortical microstimulation (ICMS). Two rhesus monkeys learned to use a virtual hand, which they moved with a joystick, to explore virtual objects on a computer screen. They sought an object associated with a particular artificial texture (AT) signaled by a periodic ICMS pattern delivered to the primary somatosensory cortex (S1) through a pair of implanted electrodes.",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Linear versus nonlinear neural modeling for 2-D pattern recognition',
+                'investigationYear' => '2005',
+                'investigationAuthors' => 'Claudio A Perez, GD Gonzalez, LE Medina, Francisco J Galdames',
+                'investigationAbstract' => "This paper compares the classification performance of linear-system- and neural-network-based models in handwritten-digit classification and face recognition. In inputs to a linear classifier, nonlinear inputs are generated based on linear inputs, using different forms of generating products. Using a genetic algorithm, linear and nonlinear inputs to the linear classifier are selected to improve classification performance. Results show that an appropriate set of linear and nonlinear inputs to the linear classifier were selected, improving significantly its classification performance in both problems. It is also shown that the linear classifier reached a classification performance similar to or better than those obtained by nonlinear neural-network classifiers with linear inputs. ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Effects of frequency-dependent membrane capacitance on neural excitability',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Bryan Howell, Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Models of excitable cells consider the membrane specific capacitance as a ubiquitous and constant parameter. However, experimental measurements show that the membrane capacitance declines with increasing frequency, ie, exhibits dispersion. We quantified the effects of frequency-dependent membrane capacitance, c (f), on the excitability of cells and nerve fibers across the frequency range from dc to hundreds of kilohertz ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Coincidence-enhanced stochastic resonance: experimental evidence challenges the psychophysical theory behind stochastic resonance',
+                'investigationYear' => '2007',
+                'investigationAuthors' => 'Claudio A Perez, Theodore E Cohn, Leonel E Medina, José R Donoso',
+                'investigationAbstract' => "Stochastic resonance (SR) is the counterintuitive phenomenon in which noise enhances detection of sub-threshold stimuli. The SR psychophysical threshold theory establishes that the required amplitude to exceed the sensory threshold barrier can be reached by adding noise to a sub-threshold stimulus. The aim of this study was to test the SR theory by comparing detection results from two different randomly-presented stimulus conditions. In the first condition, optimal noise was present during the whole attention interval; in the second, the optimal noise was restricted to the same time interval as the stimulus. ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A critical experimental study of the classical tactile threshold theory',
+                'investigationYear' => '2010',
+                'investigationAuthors' => 'Claudio A Perez, José R Donoso, Leonel E Medina',
+                'investigationAbstract' => "The tactile sense is being used in a variety of applications involving tactile human-machine interfaces. In a significant number of publications the classical threshold concept plays a central role in modelling and explaining psychophysical experimental results such as in stochastic resonance (SR) phenomena. In SR, noise enhances detection of sub-threshold stimuli and the phenomenon is explained stating that the required amplitude to exceed the sensory threshold barrier can be reached by adding noise to a sub-threshold stimulus. We designed an experiment to test the validity of the classical vibrotactile threshold. Using a second choice experiment, we show that individuals can order sensorial events below the level known as the classical threshold. If the observer's sensorial system is not activated by stimuli below the threshold, then a second choice could not be above the chance level.",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Volume conductor model of transcutaneous electrical stimulation with kilohertz signals',
+                'investigationYear' => '2014',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Incorporating high-frequency components in transcutaneous electrical stimulation (TES) waveforms may make it possible to stimulate deeper nerve fibers since the impedance of tissue declines with increasing frequency. However, the mechanisms of high-frequency TES remain largely unexplored. We investigated the properties of TES with frequencies beyond those typically used in neural stimulation. ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Nerve excitation using an amplitude-modulated signal with kilohertz-frequency carrier and non-zero offset',
+                'investigationYear' => '2016',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Incorporating kilohertz-frequency signals in transcutaneous electrical stimulation has been proposed as a means to overcome the impedance of the skin, thereby reaching deeper nerves. In particular, a transdermal amplitude modulated signal (TAMS), composed of a 210 kHz non-zero offset carrier modulated by rectangular pulses, was introduced recently for the treatment of overactive bladder. However, the contribution of the components of TAMS to nerve fiber activation has not been quantified. We conducted in vivo experiments and applied direct stimulation to the sciatic nerve of cats and rats. We measured electromyogram and compound action potential activity evoked by pulses, TAMS and modified versions of TAMS in which we varied the size of the carrier. Nerve fiber activation using TAMS showed no difference with respect to activation with conventional pulse for carrier frequencies of 20 kHz and higher, regardless the relative amplitude of the carrier. For frequencies lower than 20 kHz, the offset needed to generate half of the maximal evoked response decreased significantly with respect to the pulse. Results of simulations in a computational model of nerve fiber stimulation using the same stimulation waveforms closely matched our experimental measurements. Taken together, these results suggest that a TAMS with carrier frequencies >20 kHz does not offer any advantage over conventional pulses, even with larger amplitudes of the carrier, and this has implications for design of waveforms for efficient and effective transcutaneous stimulation. ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Phantom model of transcutaneous electrical stimulation with kilohertz signals',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Transcutaneous electrical stimulation (TES) of nerve fibers may be optimized by overcoming the impedance of the skin using high-frequency (HF) stimulation signals. The excitation properties of nerve fibers depend on the spatiotemporal distribution of the extracellular field, and therefore quantifying the potentials during HF-TES is warranted. We present a physical phantom of TES that includes elements representing the skin and underlying tissue, and incorporates dispersion of the electrical conductivity as required during HF stimulation. We used both agar-based gels and biological materials, and doped the gels with graphite to add dispersion. We measured the dielectric properties of the materials, which we modified by adjusting the concentration of sodium chloride and graphite. We assembled up to three layers of material, and quantified the impedance as a function of frequency and depth. ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Mammalian Motor Nerve Fibers, Models of',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Spinal Cord Stimulation Spinal cord stimulation (SCS) is a pain management therapy for patients suffering from specific types of chronic pain conditions that are refractory to conventional medical management ",
+                'page_id' => 13,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Circuit and volume conductor models of transcutaneous electrical stimulation',
+                'investigationYear' => '2013',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Electrical stimulation of peripheral nerves is a widespread technique for the treatment of neurological diseases and disorders. However, peripheral stimulation typically requires surgical implantation of an electrode and a pulse generator. Transcutaneous stimulation with an external electrode and pulse generator could provide a noninvasive alternative for nerve stimulation. In this study we implemented a lumped parameter electrical circuit and a distributed parameter volume conductor model to quantify the distribution of potentials in the tissue, including frequency-dependent dielectric properties, during transcutaneous electrical stimulation with a very high frequency sinusoidal carrier and rectangular envelope pulse.",
+                'page_id' => 13,
+            ]
+        );
+        //SCOPUS
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Nerve excitation using an amplitude-modulated signal with kilohertz-frequency carrier and non-zero offset',
+                'investigationYear' => '2016',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Incorporating kilohertz-frequency signals in transcutaneous electrical stimulation has been proposed as a means to overcome the impedance of the skin, thereby reaching deeper nerves. In particular, a transdermal amplitude modulated signal (TAMS), composed of a 210 kHz non-zero offset carrier modulated by rectangular pulses, was introduced recently for the treatment of overactive bladder. However, the contribution of the components of TAMS to nerve fiber activation has not been quantified. We conducted in vivo experiments and applied direct stimulation to the sciatic nerve of cats and rats. We measured electromyogram and compound action potential activity evoked by pulses, TAMS and modified versions of TAMS in which we varied the size of the carrier. Nerve fiber activation using TAMS showed no difference with respect to activation with conventional pulse for carrier frequencies of 20 kHz and higher, regardless the relative amplitude of the carrier. For frequencies lower than 20 kHz, the offset needed to generate half of the maximal evoked response decreased significantly with respect to the pulse. Results of simulations in a computational model of nerve fiber stimulation using the same stimulation waveforms closely matched our experimental measurements. Taken together, these results suggest that a TAMS with carrier frequencies >20 kHz does not offer any advantage over conventional pulses, even with larger amplitudes of the carrier, and this has implications for design of waveforms for efficient and effective transcutaneous stimulation. ",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Effects of frequency-dependent membrane capacitance on neural excitability',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Bryan Howell, Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Models of excitable cells consider the membrane specific capacitance as a ubiquitous and constant parameter. However, experimental measurements show that the membrane capacitance declines with increasing frequency, ie, exhibits dispersion. We quantified the effects of frequency-dependent membrane capacitance, c (f), on the excitability of cells and nerve fibers across the frequency range from dc to hundreds of kilohertz ",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Phantom model of transcutaneous electrical stimulation with kilohertz signals',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Transcutaneous electrical stimulation (TES) of nerve fibers may be optimized by overcoming the impedance of the skin using high-frequency (HF) stimulation signals. The excitation properties of nerve fibers depend on the spatiotemporal distribution of the extracellular field, and therefore quantifying the potentials during HF-TES is warranted. We present a physical phantom of TES that includes elements representing the skin and underlying tissue, and incorporates dispersion of the electrical conductivity as required during HF stimulation. We used both agar-based gels and biological materials, and doped the gels with graphite to add dispersion. We measured the dielectric properties of the materials, which we modified by adjusting the concentration of sodium chloride and graphite. We assembled up to three layers of material, and quantified the impedance as a function of frequency and depth. ",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Volume conductor model of transcutaneous electrical stimulation with kilohertz signals',
+                'investigationYear' => '2014',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Incorporating high-frequency components in transcutaneous electrical stimulation (TES) waveforms may make it possible to stimulate deeper nerve fibers since the impedance of tissue declines with increasing frequency. However, the mechanisms of high-frequency TES remain largely unexplored. We investigated the properties of TES with frequencies beyond those typically used in neural stimulation. ",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Circuit and volume conductor models of transcutaneous electrical stimulation',
+                'investigationYear' => '2013',
+                'investigationAuthors' => 'Leonel E Medina, Warren M Grill',
+                'investigationAbstract' => "Electrical stimulation of peripheral nerves is a widespread technique for the treatment of neurological diseases and disorders. However, peripheral stimulation typically requires surgical implantation of an electrode and a pulse generator. Transcutaneous stimulation with an external electrode and pulse generator could provide a noninvasive alternative for nerve stimulation. In this study we implemented a lumped parameter electrical circuit and a distributed parameter volume conductor model to quantify the distribution of potentials in the tissue, including frequency-dependent dielectric properties, during transcutaneous electrical stimulation with a very high frequency sinusoidal carrier and rectangular envelope pulse.",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Ore grade estimation by feature selection and voting using boundary detection in digital image analysis',
+                'investigationYear' => '2011',
+                'investigationAuthors' => 'Claudio A Perez, Pablo A Estévez, Pablo A Vera, Luis E Castillo, Carlos M Aravena, Daniel A Schulz, Leonel E Medina',
+                'investigationAbstract' => "In mining, rock classification plays a crucial role at different stages of the extraction process ranging from the design of the mine to mineral grading and plant control. In this paper we present a new method to improve rock classification using digital image analysis, feature selection based on mutual information and a voting process to take into account boundary information. ",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Stochastic facilitation of artificial tactile sensation in primates',
+                'investigationYear' => '2012',
+                'investigationAuthors' => 'Leonel E Medina, Mikhail A Lebedev, Joseph E O´Doherty, Miguel AL Nicolelis',
+                'investigationAbstract' => "Artificial sensation via electrical or optical stimulation of brain sensory areas offers a promising treatment for sensory deficits. For a brain–machine–brain interface, such artificial sensation conveys feedback signals from a sensorized prosthetic limb. The ways neural tissue can be stimulated to evoke artificial sensation and the parameter space of such stimulation, however, remain largely unexplored. Here we investigated whether stochastic facilitation (SF) could enhance an artificial tactile sensation produced by intracortical microstimulation (ICMS). Two rhesus monkeys learned to use a virtual hand, which they moved with a joystick, to explore virtual objects on a computer screen. They sought an object associated with a particular artificial texture (AT) signaled by a periodic ICMS pattern delivered to the primary somatosensory cortex (S1) through a pair of implanted electrodes.",
+                'page_id' => 15,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Coincidence-enhanced stochastic resonance: experimental evidence challenges the psychophysical theory behind stochastic resonance',
+                'investigationYear' => '2007',
+                'investigationAuthors' => 'Claudio A Perez, Theodore E Cohn, Leonel E Medina, José R Donoso',
+                'investigationAbstract' => "Stochastic resonance (SR) is the counterintuitive phenomenon in which noise enhances detection of sub-threshold stimuli. The SR psychophysical threshold theory establishes that the required amplitude to exceed the sensory threshold barrier can be reached by adding noise to a sub-threshold stimulus. The aim of this study was to test the SR theory by comparing detection results from two different randomly-presented stimulus conditions. In the first condition, optimal noise was present during the whole attention interval; in the second, the optimal noise was restricted to the same time interval as the stimulus. ",
+                'page_id' => 15,
+            ]
+        );
+                DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Linear versus nonlinear neural modeling for 2-D pattern recognition',
+                'investigationYear' => '2005',
+                'investigationAuthors' => 'Claudio A Perez, GD Gonzalez, LE Medina, Francisco J Galdames',
+                'investigationAbstract' => "This paper compares the classification performance of linear-system- and neural-network-based models in handwritten-digit classification and face recognition. In inputs to a linear classifier, nonlinear inputs are generated based on linear inputs, using different forms of generating products. Using a genetic algorithm, linear and nonlinear inputs to the linear classifier are selected to improve classification performance. Results show that an appropriate set of linear and nonlinear inputs to the linear classifier were selected, improving significantly its classification performance in both problems. It is also shown that the linear classifier reached a classification performance similar to or better than those obtained by nonlinear neural-network classifiers with linear inputs. ",
+                'page_id' => 15,
+            ]
+        );
+                DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A critical experimental study of the classical tactile threshold theory',
+                'investigationYear' => '2010',
+                'investigationAuthors' => 'Claudio A Perez, José R Donoso, Leonel E Medina',
+                'investigationAbstract' => "The tactile sense is being used in a variety of applications involving tactile human-machine interfaces. In a significant number of publications the classical threshold concept plays a central role in modelling and explaining psychophysical experimental results such as in stochastic resonance (SR) phenomena. In SR, noise enhances detection of sub-threshold stimuli and the phenomenon is explained stating that the required amplitude to exceed the sensory threshold barrier can be reached by adding noise to a sub-threshold stimulus. We designed an experiment to test the validity of the classical vibrotactile threshold. Using a second choice experiment, we show that individuals can order sensorial events below the level known as the classical threshold. If the observer's sensorial system is not activated by stimuli below the threshold, then a second choice could not be above the chance level.",
+                'page_id' => 15,
+            ]
+        );
+//GONZALO ACUÑA    16 17 18    
+
+//CAROLINA BONACIC
+
+//MAX CHACON
+
+//FERNANDO CONTRERAS
+
+//MARIO INOSTROZA                
+
     }
 }
