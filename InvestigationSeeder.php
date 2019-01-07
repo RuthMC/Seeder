@@ -623,6 +623,255 @@ class InvestigationSeeder extends Seeder
 //FERNANDO CONTRERAS
 
 //MARIO INOSTROZA                
+                // FERNANDA KRI 
 
+    // SCOPUS   
+
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A shared-memory multiprocessor scheduling algorithm',
+                'investigationYear' => '2006',
+                'investigationAuthors' => 'Zuccar, I., Solar, M., Kri, F., Parada, V.',
+                'investigationAbstract' => "Compilers are nowadays fundamental tools for the development of any kind of application. However, their task gets increasingly difficult due to the constant increase in the complexity of modern computer architecture, as well as to the increased requirements imposed upon programming languages by the great diversity of applications handled at present. In the compilation process several optimization problems must be solved, some of them belonging to the NP-Hard class. The quality of the solution found for these problems has direct impact over the quality of the generated object code. To solve them, compilers do it locally through naive heuristics which might consequently lead to solutions that are far from optimal. Knowing that metaheuristics methods have recently been used massively and successfully to solve combinatorial optimization problems, similar performance in the problems found in the compilation process can be expected beforehand. Following this line of reasoning, such problems are presented in this paper and the potential use of metaheuristics techniques to find their solutions is analyzed. A review is also made of the work that has been done in this field, and finally a proposal is made of the road that this development should follow. ",
+                'page_id' => 35,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Overview of metaheuristics methods in compilation',
+                'investigationYear' => '2005',
+                'investigationAuthors' => 'Kri, F., Gómez, C., Caro, P.',
+                'investigationAbstract' => "Compilers are nowadays fundamental tools for the development of any kind of application. However, their task gets increasingly difficult due to the constant increase in the complexity of modern computer architecture, as well as to the increased requirements imposed upon programming languages by the great diversity of applications handled at present. In the compilation process several optimization problems must be solved, some of them belonging to the NP-Hard class. The quality of the solution found for these problems has direct impact over the quality of the generated object code. To solve them, compilers do it locally through naive heuristics which might consequently lead to solutions that are far from optimal. Knowing that metaheuristics methods have recently been used massively and successfully to solve combinatorial optimization problems, similar performance in the problems found in the compilation process can be expected beforehand. Following this line of reasoning, such problems are presented in this paper and the potential use of metaheuristics techniques to find their solutions is analyzed. A review is also made of the work that has been done in this field, and finally a proposal is made of the road that this development should follow.",
+                'page_id' => 35,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Genetic instruction scheduling and register allocation',
+                'investigationYear' => '2004',
+                'investigationAuthors' => 'Kri, F., Feeley, M.',
+                'investigationAbstract' => "The construction of efficient compilers is very complex, since it has to contend with various optimization problems and depends on the characteristics of the architecture of the machine for which they generate code. Many of these problems are NP-hard. The genetics algorithms have been shown to be effective in the resolution of difficult problems, however, their use in compilation is practically non-existent. In this paper we propose a solution to the problems of register allocation and instruction scheduling. We carry out an analysis of performance by comparing with the more traditional approaches for these problems and we obtain profits on the speed of the generated code varying between-2% and 26%.",
+                'page_id' => 35,
+            ]
+        );
+ // EDMUNDO LEIVA-LOBOS
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'RBox: An experimentation tool for creating event-driven recommender algorithms for web 2.0',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Leiva-Lobos, E.P., Palomino, M.',
+                'investigationAbstract' => "This article introduces a software environment called RBox, built to experiment with recommender systems (RS), regardless of the application domain. In spite of the ubiquity of RS on the Web 2.0 this research field still lacks a unique way of representing collective intelligence. To solve this problem, this article adopts a generic event-driven approach providing a unique RBox data schema. Thus, it is possible to achieve the abstraction of collaborative events that occur on Web 2.0 such as ranking, tagging and voting. A comparison with other tools illustrates the contribution of RBox to the RS field. For instance, this tool enables reusing algorithms and executing experiments that were originally intended for a specific application domain, for other ones. Finally, considering RS tools’ limitations, the next versions of RBox will integrate ubiquitous computing and context-aware recommender systems.",
+                'page_id' => 38,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'The 3-Ontology: A framework to place cooperative awareness',
+                'investigationYear' => '2002',
+                'investigationAuthors' => 'Leiva-Lobos, E.P., Covarrubias, E.',
+                'investigationAbstract' => "Understanding and supporting cooperative awareness in CSCW have no definitive answer. Actual awareness models have addressed spatial aspects of interaction rather than other forms of awareness. While technology has privileged event notification by specialized servers it is not clear how both spatial and temporal aspects can be met together in a coherent framework. This paper presents a framework called 3-ontology which takes events, places, and communities as starting points to conceptualize cooperative awareness. Each element in the 3-ontology represents a perspective to cope with cooperative awareness. Technologically, this model has been mapped to a software architecture called JAZZ which has a pool of shared data with 3 servers representing each element of the model. From the client side, this arrangement allows us always to gather information from any cooperative system relative to 3-ontology. So, one way to prove the generality of our cooperative awareness formulation is to see how other models can be mapped to our model.",
+                'page_id' => 38,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Augmenting and multiplying spaces for creative design',
+                'investigationYear' => '1997',
+                'investigationAuthors' => 'Leiva-Lobos, Edmundo P., De Michelis, Giorgio, Covarrubias, Eliana',
+                'investigationAbstract' => "Creative design is a very peculiar work practice that has not been studied very much from the viewpoint of the cooperation shaping it. In this paper we present the main findings of a case study conducted on an industrial design project with the aim of analyzing how its actors cooperate. The main findings of our field study involve: on the one hand, recognition of the major role played by physical arrangements of the work space in shaping the practice of creative designers; on the other, the distinction between the different work spaces where different phases of a design project are performed. On the basis of discussion of the above we outline the requirements for a cooperative support system for creative design as a system augmenting and multiplying the work spaces where it is performed.",
+                'page_id' => 38,
+            ]
+        );
+// MAURICIO MARIN
+        // GOOGLE SCHOLAR
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Crawling a country: better strategies than breadth-first for web page ordering',
+                'investigationYear' => '2005',
+                'investigationAuthors' => 'Ricardo Baeza-Yates, Carlos Castillo, Mauricio Marin, Andrea Rodriguez',
+                'investigationAbstract' => "This article compares several page ordering strategies for Web crawling under several metrics. The objective of these strategies is to download the most important pages early during the crawl. As the coverage of modern search engines is small compared to the size of the Web, and it is impossible to index all of the Web for both theoretical and practical reasons, it is relevant to index at least the most important pages. We use data from actual Web pages to build Web graphs and execute a crawler simulator on those graphs. As the Web is very dynamic, crawling simulation is the only way to ensure that all the strategies considered are compared under the same conditions. We propose several page ordering strategies that are more efficient than breadth-first search and strategies based on partial Pagerank calculations.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Efficient algorithms for many-body hard particle molecular dynamics',
+                'investigationYear' => '1993',
+                'investigationAuthors' => 'Mauricio Marı́n, Dino Risso, Patricio Cordero',
+                'investigationAbstract' => "Many-body simulations are very CPU-time consuming, making the problem of having efficient algorithms specially relevant. In this paper we propose a strategy--for the simulation of hard particle systems--that is efficient, memory saving, and easy to understand and to program. The time intervals by which the simulation proceeds are the increments between collisions (events), and these are dictated by the system itself. Hence these are event-driven simulations. Our strategy is devised to (a) minimize the number of coordinate updates per event, (b) predict new events only between nearby particles, and (c) efficiently manage the events predicted during the simulation. Empirical results are given to show the performance of our strategy in different computers as well as to compare with other approaches.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Scheduling algorithms for Web crawling',
+                'investigationYear' => '2004',
+                'investigationAuthors' => 'Carlos Castillo, Mauricio Marin, Andrea Rodriguez, Ricardo Baeza-Yates',
+                'investigationAbstract' => "This paper presents a comparative study of strategies for Web crawling. We show that a combination of breadth-first ordering with the largest sites first is a practical alternative since it is fast, simple to implement, and able to retrieve the best ranked pages at a rate that is closer to the optimal than other alternatives. Our study was performed on a large sample of the Chilean Web which was crawled by using simulators, so that all strategies were compared under the same conditions, and actual crawls to validate our conclusions. We also explored the effects of large scale parallelism in the page retrieval task and multiple-page requests in a single connection for effective amortization of latency times.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'An empirical assessment of priority queues in event-driven molecular dynamics simulation',
+                'investigationYear' => '1995',
+                'investigationAuthors' => 'Mauricio Marín, Patricio Cordero',
+                'investigationAbstract' => "In the last decades a number of near optimal priority queues have been developed. Many of these priority queues are suitable for the efficient management of events generated during simulations of hard-particle systems. In this paper we compare the execution times of the fastest priority queues known today as well as some forms of binary search trees used as priority queues. We conclude that an unusual adaptation of a strictly balanced binary tree has the best performance for this class of simulations.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'New caching techniques for web search engines',
+                'investigationYear' => '2010',
+                'investigationAuthors' => 'Mauricio Marin, Veronica Gil-Costa, Carlos Gomez-Pantoja',
+                'investigationAbstract' => "This paper proposes a cache hierarchy that enables Web search engines to efficiently process user queries. The different caches in the hierarchy are used to store pieces of data which are useful to solve frequent queries. Cached items range from specific data such as query answers to generic data such as segments of index retrieved from secondary memory. The paper also presents a comparative study based on discrete-event simulation and bulk-synchronous parallelism. The studied performance metrics include overall query throughput, single-user query latency and power consumption. In all cases, the results show that the proposed cache hierarchy leads to better performance than a baseline approach built on state of the art caching techniques.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Parallel query processing on distributed clustering indexes',
+                'investigationYear' => '2009',
+                'investigationAuthors' => 'Veronica Gil-Costa, Mauricio Marin, Nora Reyes',
+                'investigationAbstract' => "Similarity search has been proved suitable for searching in large collections of unstructured data objects. A number of practical index data structures for this purpose have been proposed. All of them have been devised to process single queries sequentially. However, in large-scale systems such as Web Search Engines indexing multi-media content, it is critical to deal efficiently with streams of queries rather than with single queries. In this paper we show how to achieve efficient and scalable performance in this context. To this end we transform a sequential index based on clustering into a distributed one and devise algorithms and optimizations specially tailored to support high-performance parallel query processing.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'kNN query processing in metric spaces using GPUs',
+                'investigationYear' => '2011',
+                'investigationAuthors' => 'Ricardo J Barrientos, José I Gómez, Christian Tenllado, Manuel Prieto Matias, Mauricio Marin',
+                'investigationAbstract' => "Information retrieval from large databases is becoming crucial for many applications in different fields such as content searching in multimedia objects, text retrieval or computational biology. These databases are usually indexed off-line to enable an acceleration of on-line searches. Furthermore, the available parallelism has been exploited using clusters to improve query throughput. Recently some authors have proposed the use of Graphic Processing Units (GPUs) to accelerate brute-force searching algorithms for metric-space databases. In this work we improve existing GPU brute-force implementations and explore the viability of GPUs to accelerate indexing techniques. This exploration includes an interesting discussion about the performance of both brute-force and indexing-based algorithms that takes into account the intrinsic dimensionality of the element of the database.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'High-performance distributed inverted files',
+                'investigationYear' => '2007',
+                'investigationAuthors' => 'Mauricio Marin, Veronica Gil-Costa',
+                'investigationAbstract' => "We present a general method of parallel query processing that allows scalable performance on distributed inverted files. The method allows the realization of a hybrid that combines the advantages of the document and term partitioned inverted files.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Scheduling metric-space queries processing on multi-core processors',
+                'investigationYear' => '2010',
+                'investigationAuthors' => 'Veronica Gil-Costa, Ricardo Barrientos, Mauricio Marin, Carolina Bonacic',
+                'investigationAbstract' => "This paper proposes a strategy to organize metricspace query processing in multicore search nodes as understood in the context of search engines running on clusters of computers. The strategy is applied in each search node to process all active queries visiting the node as part of their solution which, in general, for each query is computed from the contribution of each search node. When query traffic is high enough, the proposed strategy assigns one thread to each query and lets them work in a fully asynchronous manner. When query traffic is moderate or low, some threads start to idle so they are put to work on queries being processed by other threads. The strategy solves the associated synchronization problem among threads by switching query processing into a bulk-synchronous mode of operation.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Sync/async parallel search for the efficient design and construction of web search engines',
+                'investigationYear' => '2010',
+                'investigationAuthors' => 'Mauricio Marin, Veronica Gil-Costa, Carolina Bonacic, Ricardo Baeza-Yates, Isaac D Scherson',
+                'investigationAbstract' => "A parallel query processing method is proposed for the design and construction of web search engines to efficiently deal with dynamic variations in query traffic. The method allows for the efficient use of different distributed indexing and query processing strategies in server clusters consisting of multiple computational/storage nodes. It also enables a better utilization of local and distributed hardware resources as it automatically re-organizes parallel computations to benefit from the advantages of two mixed modes of operation, namely: a newly proposed synchronous mode and the standard asynchronous computing mode. Switching between modes is facilitated by a round-robin strategy devised to grant each query a fair share of the hardware resources and properly predict query throughput.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'To index or not to index: time-space trade-offs in search engines with positional ranking functions',
+                'investigationYear' => '2012',
+                'investigationAuthors' => 'Diego Arroyuelo, Senén González, Mauricio Marin, Mauricio Oyarzún, Torsten Suel',
+                'investigationAbstract' => "Positional ranking functions, widely used in Web search engines, improve result quality by exploiting the positions of the query terms within documents. However, it is well known that positional indexes demand large amounts of extra space, typically about three times the space of a basic nonpositional index. Textual data, on the other hand, is needed to produce text snippets. In this paper, we study time-space trade-offs for search engines with positional ranking functions and text snippet generation. We consider both index-based and non-index based alternatives for positional data. We aim to answer the question of whether one should index positional data or not. We show that there is a wide range of practical time-space trade-offs. Moreover, we show that both position and textual data can be stored using about 71% of the space used by traditional positional indexes, with a minor increase in query time.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'High-performance priority queues for parallel crawlers',
+                'investigationYear' => '2008',
+                'investigationAuthors' => 'Mauricio Marin, Rodrigo Paredes, Carolina Bonacic',
+                'investigationAbstract' => "Large scale data centers for crawlers are able to maintain a very large number of active http connections in order to download as fast as possible the usually huge number of web pages from given sections of the WWW. This generates a continuous stream of new URLs of documents to be downloaded and it is clear that the associated work-load can only be served efficiently with proper parallel computing techniques. The incoming new URLs have to be organized by a priority measure in order to download the most relevant documents first. Efficiently managing them along with other synchronization issues such as URLs downloaded by different processing nodes forming a cluster of computers are the matters of this paper. We propose efficient and scalable strategies which consider intra-node multi-core multi-threading on an inter-nodes distributed memory environment, including efficient use of secondary memory.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Event-driven hard-particle molecular dynamics using bulk-synchronous parallelism',
+                'investigationYear' => '1997',
+                'investigationAuthors' => 'Mauricio Marín',
+                'investigationAbstract' => "We describe and analyse a new parallel algorithm for event-driven simulation of hard-particle systems that is based on the ideas of the bulk-synchronous parallel (BSP) model. This model provides a unifying approach for general purpose parallel computing which in addition to efficient computation ensures portability across different parallel architectures. The hard-particle system is divided into regions that are owned by a unique processor. ",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Capacity planning for vertical search engines: An approach based on coloured petri nets',
+                'investigationYear' => '2012',
+                'investigationAuthors' => 'Veronica Gil-Costa, Jair Lobos, Alonso Inostrosa-Psijas, Mauricio Marin',
+                'investigationAbstract' => "This paper proposes a Colored Petri Net model capturing the behaviour of vertical search engines. In such systems a query submitted by a user goes through different stages and can be handled by three different kinds of nodes. The proposed model has a modular design that enables accommodation of alternative/additional search engine components. A performance evaluation study is presented to illustrate the use of the model and it shows that the proposed model is suitable for rapid exploration of different scenarios and determination of feasible search engine configurations.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Capacity planning for vertical search engines: An approach based on coloured petri nets',
+                'investigationYear' => '2012',
+                'investigationAuthors' => 'Veronica Gil-Costa, Jair Lobos, Alonso Inostrosa-Psijas, Mauricio Marin',
+                'investigationAbstract' => "This paper proposes a Colored Petri Net model capturing the behaviour of vertical search engines. In such systems a query submitted by a user goes through different stages and can be handled by three different kinds of nodes. The proposed model has a modular design that enables accommodation of alternative/additional search engine components. A performance evaluation study is presented to illustrate the use of the model and it shows that the proposed model is suitable for rapid exploration of different scenarios and determination of feasible search engine configurations.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A search engine index for multimedia content',
+                'investigationYear' => '2008',
+                'investigationAuthors' => 'Mauricio Marin, Veronica Gil-Costa, Carolina Bonacic',
+                'investigationAbstract' => "We present a distributed index data structure and algorithms devised to support parallel query processing of multimedia content in search engines. We present a comparative study with a number of data structures used as indexes for metric space databases. Our optimization criteria are based on requirements for high-performance search engines. The main advantages of our proposal are efficient performance with respect to other approaches (sequentially and in parallel), suitable treatment of secondary memory, and support for OpenMP multithreading. We presents experiments for the asynchronous (MPI) and bulk-synchronous (BSP) message passing models of parallel computing showing that in both models our approach outperforms others consistently.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Distributed search based on self-indexed compressed text',
+                'investigationYear' => '2012',
+                'investigationAuthors' => 'Diego Arroyuelo, Veronica Gil-Costa, Senén González, Mauricio Marin, Mauricio Oyarzún',
+                'investigationAbstract' => "Query response times within a fraction of a second in Web search engines are feasible due to the use of indexing and caching techniques, which are devised for large text collections partitioned and replicated into a set of distributed-memory processors. This paper proposes an alternative query processing method for this setting, which is based on a combination of self-indexed compressed text and posting lists caching. We show that a text self-index (i.e., an index that compresses the text and is able to extract arbitrary parts of it) can be competitive with an inverted index if we consider the whole query process, which includes index decompression, ranking and snippet extraction time. The advantage is that within the space of the compressed document collection, one can carry out the posting lists generation, document ranking and snippet extraction. ",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Time Warp on BSP computers',
+                'investigationYear' => '1998',
+                'investigationAuthors' => 'Mauricio Marín',
+                'investigationAbstract' => " ",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Distributing a metric-space search index onto processors',
+                'investigationYear' => '2010',
+                'investigationAuthors' => 'Mauricio Marin, Flavio Ferrarotti, Veronica Gil-Costa',
+                'investigationAbstract' => "This paper studies the problem of distributing a metric-space search index based on compact clustering onto a set of distributed memory processors. The aim is enabling efficient similarity search in large-scale Web search engines. The index data structure is composed of a set of clusters enclosing the database objects and we propose distribution methods based on two different solution approaches. The first one makes use of specific knowledge about the work-load generated by user queries. Here the challenge is how to represent and use such a knowledge into a method capable of producing a cluster distribution leading to high performance. The second one follows a novel direction by completely disregarding user behavior to look instead at the relationships among the index clusters themselves to decide their placement onto processors.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Searching and updating metric space databases using the parallel EGNAT',
+                'investigationYear' => '2007',
+                'investigationAuthors' => 'Mauricio Marin, Roberto Uribe, Ricardo Barrientos',
+                'investigationAbstract' => "The Evolutionary Geometric Near-neighbor Access Tree (EGNAT) is a recently proposed data structure that is suitable for indexing large collections of complex objects. It allows searching for similar objects represented in metric spaces. The sequential EGNAT has been shown to achieve good performance in high-dimensional metric spaces with properties (not found in others of the same kind) of allowing update operations and efficient use of secondary memory. Thus, for example, it is suitable for indexing large multimedia databases. However, comparing two objects during a search can be a very expensive operation in terms of running time.",
+                'page_id' => 39,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'An index data structure for searching in metric space databases',
+                'investigationYear' => '2006',
+                'investigationAuthors' => 'Roberto Uribe, Gonzalo Navarro, Ricardo J Barrientos, Mauricio Marín',
+                'investigationAbstract' => "This paper presents the Evolutionary Geometric Near-neighbor Access Tree (EGNAT) which is a new data structure devised for searching in metric space databases. The EGNAT is fully dynamic, i.e., it allows combinations of insert and delete operations, and has been optimized for secondary memory. Empirical results on different databases show that this tree achieves good performance for high-dimensional metric spaces. We also show that this data structure allows efficient parallelization on distributed memory parallel architectures. All this indicates that the EGNAT is suitable for conducting similarity searches on very large metric space databases.",
+                'page_id' => 39,
+            ]
+        );
     }
 }
