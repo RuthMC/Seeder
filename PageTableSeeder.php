@@ -88,21 +88,7 @@ class PageTableSeeder extends Seeder
         
 
 //Hector Antillanca
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 3
-            ]
-        );
-        //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 3
-            ]
-        );
+
         //Scopus
         DB::table('pages')->insert(
             [
@@ -162,13 +148,7 @@ class PageTableSeeder extends Seeder
         );
 
 //CAROLINA BONACIC
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => ' ',
-                'user_id' => 6
-            ]
-        );
+
         //Research 
         DB::table('pages')->insert(
             [
@@ -219,29 +199,7 @@ class PageTableSeeder extends Seeder
             ]
         );
 //FERNANDO CONTRERAS
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 8
-            ]
-        );
-        //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 8
-            ]
-        );
-        //Scopus
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'Scopus',
-                'pageUrl' => '',
-                'user_id' => 8
-            ]
-        );
+
 //Mario INOSTROZA        
                 DB::table('pages')->insert(
             [
@@ -268,13 +226,7 @@ class PageTableSeeder extends Seeder
         );
        
 //FERNANDA KRI
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 11
-            ]
-        );
+
         //Research 
         DB::table('pages')->insert(
             [
@@ -292,13 +244,7 @@ class PageTableSeeder extends Seeder
             ]
         );
 //EDMUNDO LEIVA-LOBOS
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 12
-            ]
-        );
+
         //Research 
         DB::table('pages')->insert(
             [
@@ -324,13 +270,7 @@ class PageTableSeeder extends Seeder
             ]
         );
         //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 13
-            ]
-        );
+
         //Scopus
         DB::table('pages')->insert(
             [
@@ -340,29 +280,11 @@ class PageTableSeeder extends Seeder
             ]
         );
 //Rosa Muñoz        
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 14
-            ]
-        );
+
         //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 14
-            ]
-        );
+
         //Scopus
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'Scopus',
-                'pageUrl' => '',
-                'user_id' => 14
-            ]
-        );
+
 //Alcides Quispe        
                 DB::table('pages')->insert(
             [
@@ -372,13 +294,7 @@ class PageTableSeeder extends Seeder
             ]
         );
         //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 15
-            ]
-        );
+
         //Scopus
         DB::table('pages')->insert(
             [
@@ -388,13 +304,7 @@ class PageTableSeeder extends Seeder
             ]
         );
 //Fernando Rannou        
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 16
-            ]
-        );
+
         //Research 
         DB::table('pages')->insert(
             [
@@ -420,13 +330,7 @@ class PageTableSeeder extends Seeder
             ]
         );
         //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 17
-            ]
-        );
+
         //Scopus
         DB::table('pages')->insert(
             [
@@ -436,21 +340,9 @@ class PageTableSeeder extends Seeder
             ]
         );
 //MONICA VILLANUEVA        
-                DB::table('pages')->insert(
-            [
-                'pageName' => 'Google Scholar',
-                'pageUrl' => '',
-                'user_id' => 18
-            ]
-        );
+
         //Research 
-        DB::table('pages')->insert(
-            [
-                'pageName' => 'ResearchGate',
-                'pageUrl' => '',
-                'user_id' => 18
-            ]
-        );
+
         //Scopus
         DB::table('pages')->insert(
             [
