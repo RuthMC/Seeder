@@ -708,7 +708,99 @@ class InvestigationSeeder extends Seeder
 
 
 
-//CAROLINA BONACIC
+//CAROLINA BONACIC 19 20 21
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'S4 Applications Simulator for Performance Evaluation  ',
+                'investigationYear' => '2016',
+                'investigationAuthors' => 'Gallardo, R.S., Bonacic, C., Marin, M.',
+                'investigationAbstract' => "Big Data is now a widely studied concept in the field of massive processing of information, but testing systems and applications in this field is a difficult task, because the real environments to be used are of a large scale and many times impossible to reproduce. Usually, for this task executions in virtual settings, called simulations, are used. The present article presents a simulator for applications developed to be executed on the Apache S4 distributed computing platform for multiple hardware and software scenarios. A version in which mobile devices as well as processing units are used is proposed. The results show that the simulator without mobile devices gets good prediction performance results considering the processing and communication times between the elements of the S4 applications, and the other version with mobile systems shows a decrease in performance in different simulation configurations. However, adding replication in the elements that are communicated with the cellphones has shown substantial improvements in the application's performance.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A Hybrid Load-Balancing Solution for S4 Stream Processing Systems',
+                'investigationYear' => '2016',
+                'investigationAuthors' => 'Cantergiani, P.G., Castro, C.B., Marin, M.',
+                'investigationAbstract' => "Stream processing systems (SPSs) are created by the need to process a continuous flow of information with variable magnitude in order to detect and process events as close as possible to real time. These systems are deployed in clusters of processors to get benefits from the distributed processing in order to scale up applications. The present work addresses the load balancing problem in SPSs that appears when working on distributed systems. A hybrid solution is presented which is assessed in the S4 system. The results show that it is possible to generate a solution that is decentralized, information lossless and transparent to application developers, that is capable of evenly distributing the load on the processors.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Survey on Simulation for Mobile Ad-Hoc Communication for Disaster Scenarios',
+                'investigationYear' => '2016',
+                'investigationAuthors' => 'Rosas, E., Hidalgo, N., Gil-Costa, V., (...), Marcondes, C., Marin, O.',
+                'investigationAbstract' => "Springer Science+Business Media New York. Mobile ad-hoc communication is a demonstrated solution to mitigate the impact of infrastructure failures during large-scale disasters. A very complex issue in this domain is the design validation of software applications that support decision-making and communication during natural disasters. Such disasters are irreproducible, highly unpredictable, and impossible to scale down, and thus extensive assessments cannot be led in situ. In this context, simulation constitutes the best approach towards the testing of software solutions for natural disaster responses. The present survey reviews mobility models, ad-hoc network architectures, routing protocols and network simulators. Our aim is to provide guidelines for software developers with regards to the performance evaluation of their applications by means of simulation.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Simulating streaming software applications running on clusters of processors and smartphone',
+                'investigationYear' => '2016',
+                'investigationAuthors' => 'Soto, R., Bonacic, C., Marin, M., Gil-Costa, V.',
+                'investigationAbstract' => "Social software applications devised to process large and intensive streams of data must be usually run on complex computational infrastructure that ranges from clusters of processors to smartphones. The scalability to thousands or even millions of users is a relevant issue to be considered when designing these applications as they are not expected to collapse when they are mostly needed such as in disaster scenarios. In this context, software tools for performance evaluation of social software applications by means of discrete-event simulation have practical benefits, and yet they have not been fully developed in application domains where performance is critically dependent on massive user dynamics. This paper proposes a simulator to address this problem which combines powerful data centers and the computational power provided by mobile devices. We provide experimental evidence that shows a good agreement between actual and simulation performance measures.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Multithreaded processing in dynamic inverted indexes for web search engines',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'Bonacic, C., Bustos, D., Gil-Costa, V., Marin, M., Sepulveda, V.',
+                'investigationAbstract' => "Processing queries in Web search engines demands the effi- cient use of hardware resources to cope with the scale and dynamics of user traffic. This paper focuses on the multi- threaded processing of queries that requires (1) accessing a large inverted index data structure to obtain a set of docu- ments, (2) rank them by executing the WAND operator in order to obtain the top K most pertinent documents for the query, and (3) resolve the insertion of new documents on the inverted index concurrently with the execution of queries. We propose an efficient strategy to assign threads to queries and index update operations which is suitable to support updates on the index concurrently with query processing. The core of our proposal is a simple classification technique devised to quickly assign threads to query operations.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A real-time web observatory for cycling safety: A tool for supporting research and decision making of people and organizations',
+                'investigationYear' => '2015',
+                'investigationAuthors' => 'González-Ibáñez, R., Bonacic, C., Fernández, Á.',
+                'investigationAbstract' => "Human-generated content on the Web has increased over the last decade. In part, this situation has been powered by the proliferation of social networking services and mobile computing. In the context of citizen safety, everyday people share information about safety-related events such as natural disasters, accidents, and theft. This information can have valuable implications for the community and authorities, however, processing and making sense of such volume of information are difficult tasks for machines and likely impossible for humans. This poster shows the design of a real-time Web observatory that uses publicly available information found in social networking services such as Twitter to automatically provide visualizations and indicators of safety-related events for the particular case of cyclists as perceived by the citizens. We demonstrate the potential applications of this design with two implementations thought to aid researchers, decision makers, and people in general.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Distributed text search using suffix arrays',
+                'investigationYear' => '2014',
+                'investigationAuthors' =>   'Arroyuelo, D., Bonacic, C., Gil-Costa, V., Marin, M., Navarro, G.',
+                'investigationAbstract' => "Text search is a classical problem in Computer Science, with many data-intensive applications. For this problem, suffix arrays are among the most widely known and used data structures, enabling fast searches for phrases, terms, substrings and regular expressions in large texts. Potential application domains for these operations include large-scale search services, such as Web search engines, where it is necessary to efficiently process intensive-traffic streams of on-line queries. This paper proposes strategies to enable such services by means of suffix arrays. We introduce techniques for deploying suffix arrays on clusters of distributed-memory processors and then study the processing of multiple queries on the distributed data structure. Even though the cost of individual search operations in sequential (non-distributed) suffix arrays is low in practice, the problem of processing multiple queries on distributed-memory systems, so that hardware resources are used efficiently, is relevant to services aimed at achieving high query throughput at low operational costs. Our theoretical and experimental performance studies show that our proposals are suitable solutions for building efficient and scalable on-line search services based on suffix arrays.",
+                'page_id' => 20,
+            ]
+        ); 
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A graph-based cache for large-scale similarity search engines',
+                'investigationYear' => '2018',
+                'investigationAuthors' => 'Gil-Costa, V., Marin, M., Bonacic, C., Solar, R.',
+                'investigationAbstract' => "Large-scale similarity search engines are complex systems devised to process unstructured data like images and videos. These systems are deployed on clusters of distributed processors communicated through high-speed networks. To process a new query, a distance function is evaluated between the query and the objects stored in the database. This process relays on a metric space index distributed among the processors. In this paper, we propose a cache-based strategy devised to reduce the number of computations required to retrieve the top-k object results for user queries by using pre-computed information. Our proposal executes an approximate similarity search algorithm, which takes advantage of the links between objects stored in the cache memory. Those links form a graph of similarity among pre-computed queries. Compared to the previous methods in the literature, the proposed approach reduces the number of distance evaluations up to 60%.",
+                'page_id' => 21,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Neural networks and support vector machine models applied to energy consumption optimization in semiautogeneous grinding',
+                'investigationYear' => '2011',
+                'investigationAuthors' => 'Millaray Curilem, Gonzalo Acuña, Francisco Cubillos, Eduardo Vyhmeister',
+                'investigationAbstract' => "Alternative approaches to tackle this problem consist in designing appropriate datadriven models, such as Neural Networks (NN) and Support Vector Machine (SVM). In this paper, NN and a SVM (specifically a Least Square-SVM) are used as Nonlinear autoregressive with exogenous inputs (NARX) and Nonlinear autoregressive moving average with exogenous inputs (NARMAX) models for on-line estimation of the filling level of a SAG mill. Good performances of the developed models could allow implementation in SAG operation/control hence optimizing its energy consumption.",
+                'page_id' => 21,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Neural networks and support vector machine models applied to energy consumption optimization in semiautogeneous grinding',
+                'investigationYear' => '2011',
+                'investigationAuthors' => 'Millaray Curilem, Gonzalo Acuña, Francisco Cubillos, Eduardo Vyhmeister',
+                'investigationAbstract' => "Alternative approaches to tackle this problem consist in designing appropriate datadriven models, such as Neural Networks (NN) and Support Vector Machine (SVM). In this paper, NN and a SVM (specifically a Least Square-SVM) are used as Nonlinear autoregressive with exogenous inputs (NARX) and Nonlinear autoregressive moving average with exogenous inputs (NARMAX) models for on-line estimation of the filling level of a SAG mill. Good performances of the developed models could allow implementation in SAG operation/control hence optimizing its energy consumption.",
+                'page_id' => 21,
+            ]
+        ); 
+
+
 
 //MAX CHACON
 
