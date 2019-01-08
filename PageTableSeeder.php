@@ -160,14 +160,14 @@ class PageTableSeeder extends Seeder
         //Scopus
         DB::table('pages')->insert(
             [
-                'pageName' => 'Scopus',
+                'pageName' => 'Scopus I',
                 'pageUrl' => 'https://www.scopus.com/authid/detail.uri?authorId=23392028000 ',
                 'user_id' => 6
             ]
         );
         DB::table('pages')->insert(
             [
-                'pageName' => 'Scopus',
+                'pageName' => 'ScopusII',
                 'pageUrl' => 'https://www.scopus.com/authid/detail.uri?authorId=57192935212 ',
                 'user_id' => 6
             ]
@@ -352,5 +352,132 @@ class PageTableSeeder extends Seeder
             ]
         );
 
+//OTROS        
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 1
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 2
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 3
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 4
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 5
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 6
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 7
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 8
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 9
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 10
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 11
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 12
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 13
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 14
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 15
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 16
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 17
+            ]
+        );
+        DB::table('pages')->insert(
+            [
+                'pageName' => 'Otros',
+                'pageUrl' => '',
+                'user_id' => 18
+            ]
+        );        
     }
 }
