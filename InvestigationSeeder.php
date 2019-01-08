@@ -615,6 +615,98 @@ class InvestigationSeeder extends Seeder
             ]
         );
 //GONZALO ACUÑA    16 17 18    
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'One member of a gro‐ESL‐like chaperonin multigene family in Bradyrhizobium japonicum is co‐regulated with symbiotic nitrogen fixation genes.',
+                'investigationYear' => '1993',
+                'investigationAuthors' => 'HM Fischer, M Babst, T Kaspar, G Acuna, F Arigoni, H Hennecke',
+                'investigationAbstract' => "This report is concerned with the structural characterization and genetic regulation of new bacterial groES and groEL chaperonin genes, and presents two novelties. The first is the discovery that the nitrogen fixing soybean root nodule bacterium, Bradyrhizobium japonicum, unlike all other prokaryotes investigated so far, possesses a multigene family consisting of five very similar, though not identical, groESL‐like genes. The second novelty relates to the finding that these five homologues are expressed to different degrees and, in particular, that one family member (namely groESL3) is induced by a mechanism that does not involve the well‐known heat shock response.",
+                'page_id' => 16,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Detection of community structures in networks via global optimization',
+                'investigationYear' => '2005',
+                'investigationAuthors' => 'Andres Medus, Guillermo Acuña, CO Dorso',
+                'investigationAbstract' => "We present an analysis of communality structure in networks based on the application of simulated annealing techniques. In this case we use as “cost function” the already introduced modularity Q (1), which is based on the relative number of links within a commune against the number of links that would correspond in case the links were distributed randomly. We compare the results of our approach against other methodologies based on betweenness analysis and show that in all cases a better community structure can be attained.",
+                'page_id' => 16,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Forecasting ozone daily maximum levels at Santiago, Chile',
+                'investigationYear' => '1998',
+                'investigationAuthors' => 'Héctor Jorquera, Ricardo Pérez, Aldo Cipriano, Andrés Espejo, M Victoria Letelier, Gonzalo Acuña',
+                'investigationAbstract' => "In major urban areas, air pollution impact on health is serious enough to include it in the group of meteorological variables that are forecast daily. This work focusses on the comparison of different forecasting systems for daily maximum ozone levels at Santiago, Chile. The modelling tools used for these systems were linear time series, artificial neural networks and fuzzy models. The structure of the forecasting model was derived from basic principles and it includes a combination of persistence and daily maximum air temperature as input variables. Assessment of the models is based on two indices: their ability to forecast well an episode, and their tendency to forecast an episode that did not occur at the end (a false positive).",
+                'page_id' => 16,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Classification of seismic signals at Villarrica volcano (Chile) using neural networks and genetic algorithms',
+                'investigationYear' => '2009',
+                'investigationAuthors' => 'Gloria Curilem, Jorge Vergara, Gustavo Fuentealba, Gonzalo Acuña, Max Chacón',
+                'investigationAbstract' => "Each volcano has its own unique seismic activity. The aim of this work is to construct a system able to classify seismic signals for the Villarrica volcano, one of the most active volcanoes in South America. Since seismic signals are the result of particular processes inside the volcano's structure, they can be used to forecast volcanic activity. This paper describes the different kinds of seismic signals recorded at the Villarrica volcano and their significance. Three kind of signals were considered as most representative of this volcano's activity: the long-period, the tremor, and the energetic tremor signals.",
+                'page_id' => 16,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Dynamic modelling and simulation of semi-autogenous mills',
+                'investigationYear' => '2009',
+                'investigationAuthors' => 'JL Salazar, L Magne, G Acuna, F Cubillos',
+                'investigationAbstract' => "This paper presents a dynamic simulator of the semi-autogenous grinding operation deduced from first principles coupled to an on-line parameter estimation scheme able to simulate industrial operations for control purposes. Model equations are based on conventional non-stationary population balance approach to develop the necessary dynamic model of the semi-autogenous mill operation. The model is able to predict the time-evolution of key operating variables such as product flow rate, level charge, power-draw and load position, as function of other important variables such as mill rotational speed and fresh feed characteristics. The set of ordinary differential equations was solved using MATLAB/SIMULINK as a graphic programming platform, a very helpful tool for understanding the grinding phenomenon.",
+                'page_id' => 16,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Static and dynamic neural network models for estimating biomass concentration during thermophilic lactic acid bacteria batch cultures',
+                'investigationYear' => '1998',
+                'investigationAuthors' => 'Gonzalo Acuña, Eric Latrille, Catherine Béal, Georges Corrieu',
+                'investigationAbstract' => "Neural networks were used to elaborate static and dynamic models for the on-line estimation of biomass concentration during batch cultures of Streptococcus salivarius ssp. thermophilus 404 and Lactobacillus delbrueckii ssp. bulgaricus 398 conducted at controlled pH and temperature. Four static models with different structures and input variables were tested. The model relating the increase of lactic acid concentration and the working conditions (pH and temperature) to the increase of biomass was the most appropriate. Nevertheless, all the static models could furnish biased estimations when initial values of biomass were erroneous or when lactic acid measurements were perturbed or noisy. To overcome these drawbacks, recurrent neural networks were used to model the dynamic behaviour of fermentations. ",
+                'page_id' => 16,
+            ]
+        );
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Moving horizon state estimation with global convergence using interval techniques: application to biotechnological processes',
+                'investigationYear' => '2003',
+                'investigationAuthors' => 'Héctor Valdés-González, Jean-Marie Flaus, Gonzalo Acuña',
+                'investigationAbstract' => "This work proposes an original method to estimate states in non-linear discrete-time systems with global convergence properties. The approach is based on the minimisation of a criterion (non-linear function, differentiable or not) that is the Euclidean norm of the difference between the estimated output and the measured output of the system over a considered time horizon. This method is based on an interval moving horizon state estimation method, called IMHSE, which is coupled to a technique of global optimisation of non-linear functions that uses interval arithmetic. The system states are described using a representation by interval numbers.",
+                'page_id' => 16,
+            ]
+        );                                
+        DB::table('investigations')->insert(
+            [
+                'investigationName' => 'A hybrid representation approach for modelling complex dynamic bioprocesses',
+                'investigationYear' => '2000',
+                'investigationAuthors' => 'J Thibault, G Acuna, R Perez-Correa, H Jorquera, P Molin, E Agosin',
+                'investigationAbstract' => "This paper considers the use of hybrid models to represent the dynamic behaviour of biotechnological processes. Each hybrid model consists of a set of non linear differential equations and a neural model. The set of differential equations attempts to describe as much as possible the phenomenology of the process whereas neural networks model predict some key parameters that are an essential part of the phenomenological model. The neural model is obtained indirectly, that is, using the prediction errors of one or more state variables to adjust its weights instead of successive presentations of input-output data of the neural network. This approach allows to use actual measurements to derive a suitable neural model that not only represents the variation of some key parameters but it is also able to partly include dynamic behaviour unaccounted for by the phenomenological model.",
+                'page_id' => 16,
+            ]
+        );
+                DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Cloning, sequencing, and mutational analysis of the Bradyrhizobium japonicum fumC-like gene: evidence for the existence of two different fumarases',
+                'investigationYear' => '1991',
+                'investigationAuthors' => 'Gonzalo Acuña, Sabine Ebeling, Hauke Hennecke',
+                'investigationAbstract' => "The Bradyrhizobium japonicum fumarase gene (fumC-like) was cloned and sequenced, and a fumC deletion mutant was constructed. This mutant had a Nod+ Fix+ phenotype in symbiosis with the host plant, soybean, and growth in minimal medium with fumarate as sole carbon source was also not affected. The cloned B. japonicum fumC gene fully complemented an Escherichia coli Fum− mutant, strain JH400, for growth in minimal medium with fumarate. The predicted amino acid sequence of the FumC protein showed strong similarity to the E. coli FumC protein, Bacillus subtilis CitG protein, Saccharomyces cerevisiae Fum1 protein, and the mammalian fumarases. The B. japonicum FumC protein accounted for about 40% of the total fumarase activity in aerobically grown cells. The remaining 60% was ascribed to a temperature-labile fumarase. ",
+                'page_id' => 16,
+            ]
+        );  
+                DB::table('investigations')->insert(
+            [
+                'investigationName' => 'Neural networks and support vector machine models applied to energy consumption optimization in semiautogeneous grinding',
+                'investigationYear' => '2011',
+                'investigationAuthors' => 'Millaray Curilem, Gonzalo Acuña, Francisco Cubillos, Eduardo Vyhmeister',
+                'investigationAbstract' => "Alternative approaches to tackle this problem consist in designing appropriate datadriven models, such as Neural Networks (NN) and Support Vector Machine (SVM). In this paper, NN and a SVM (specifically a Least Square-SVM) are used as Nonlinear autoregressive with exogenous inputs (NARX) and Nonlinear autoregressive moving average with exogenous inputs (NARMAX) models for on-line estimation of the filling level of a SAG mill. Good performances of the developed models could allow implementation in SAG operation/control hence optimizing its energy consumption.",
+                'page_id' => 16,
+            ]
+        );    
+
+
 
 //CAROLINA BONACIC
 
